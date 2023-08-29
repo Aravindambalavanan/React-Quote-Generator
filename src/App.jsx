@@ -30,8 +30,10 @@ function App() {
   return (
     <div className='App'>
       <div className='container'>
-        <div>{quote}</div> 
-        <div id='author'>-{author}</div>
+        <div>
+          <div>{quote}</div> 
+          <div id='author'>-{author}</div>
+        </div>
       </div>
       <button onClick={quoteAPI} id='btn'>New Quote</button>
     </div>
